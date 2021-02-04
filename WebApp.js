@@ -2,8 +2,8 @@ let btnstart = document.getElementById("mybtn2");
 btnstart.addEventListener("click",clockstart);
 var startTime;
 
-var itemprice = [30,120,80,90,100];
-var itemvalue = [70,60,40,50,45];
+var itemprice = [30,50,80,90,100,110,120,130,150,160];
+var itemvalue = [8,6,8,9,7,7,8,5,8,9];
 var limitprice = 300;
 var choicenumber = 0;
 var maxvalue = 0;
