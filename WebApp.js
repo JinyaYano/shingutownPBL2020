@@ -18,14 +18,15 @@ function calculation_start (){
 psum = 0;
 vsum = 0;
 
-for(i=0;i=10;i++){
-	if(snacklist[i].cehcked){
+        for(i=0;i=10;i++){
+	     if(snacklist[i].cehcked){
 		psum = psum+itemprice[i];
 	        vsum = vsum+itemvalue[i];
 	}
 }
 	
-var text = document.createTextNode("合計金額:"+psum+",合計人気度:"+vsum);
+        var text = document.createTextNode("合計金額:"+psum+",合計人気度:"+vsum);
+	document.body.appendChild(element).appendChild(text);
 	
 }
 
@@ -53,4 +54,4 @@ function full_search_start (){
 	var element = document.createElement("p");
 	var text = document.createTextNode("人気度の合計：" + maxvalue + ", 選べるパターン：" + choicenumber + "通り，実行時間：" + (endTime-startTime) + "/1000秒！");
 	document.body.appendChild(element).appendChild(text);
-};
+}
