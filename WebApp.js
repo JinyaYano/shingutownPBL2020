@@ -37,9 +37,11 @@ function full_search_start(){
 }
 
 function calculation_start(){
-       var snacklist = document.getElementsbyName("snack");
-       var psum = 0;
-       var vsum = 0;
+	alert("かきく");
+	
+       //var snacklist = document.getElementsbyName("snack");
+       //var psum = 0;
+       //var vsum = 0;
 
         //for(i=0;i<10;i++){
 	     //if(snacklist[i].checked){
@@ -47,9 +49,9 @@ function calculation_start(){
 	        //vsum = vsum+itemvalue[i];
 	//}
 //}
-	var element = document.createElement("p");
-        var text = document.createTextNode("合計金額:" + psum + ",合計人気度:" + vsum);
-	document.body.appendChild(element).appendChild(text);
+	//var element = document.createElement("p");
+        //var text = document.createTextNode("合計金額:" + psum + ",合計人気度:" + vsum);
+	//document.body.appendChild(element).appendChild(text);
 	
 }
 
