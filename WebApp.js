@@ -13,7 +13,7 @@ var maxvalue = 0;
 var snacklist = document.getElements by Name("snack");
 
 
-function calculation_start (){
+function calculation_start) (){
 	
 psum = 0;
 vsum = 0;
@@ -32,7 +32,7 @@ vsum = 0;
 
 
 
-function full_search_start (){
+function full_search_start) (){
 	startTime = performance.now();
 
 	for(var cnt = 0; cnt < Math.pow(2, itemprice.length) ;cnt++){
