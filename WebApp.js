@@ -43,6 +43,7 @@ function calculation_start(){
        var psum = 0;
        var vsum = 0;
 	
+	
 	alert("1.2");
 
         for(i=0;i<10;i++){
