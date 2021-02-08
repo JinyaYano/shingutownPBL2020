@@ -36,6 +36,7 @@ function full_search_start(){
 	document.body.appendChild(element).appendChild(text);
 }
 
+
 function calculation_start(){
 	alert("1.0");
 	
@@ -58,8 +59,6 @@ function calculation_start(){
 	alert("3");
 	document.body.appendChild(element).appendChild(text);
 	alert("4");
-	
-	
 }
 
 
