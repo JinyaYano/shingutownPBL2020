@@ -50,7 +50,7 @@ function calculation_start(){
 	//}
 //}
 	var element = document.createElement("p");
-        var text = document.createTextNode("合計金額:" + ",合計人気度:");
+        var text = document.createTextNode("合計金額");
 	document.body.appendChild(element).appendChild(text);
 	
 }
