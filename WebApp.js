@@ -33,6 +33,7 @@ var vsum = 0;
 
 function full_search_start(){
 	startTime = performance.now();
+	alert("あいうえお")
 
 	for(var cnt = 0; cnt < Math.pow(2, itemprice.length) ;cnt++){
 		var sumprice = 0;
