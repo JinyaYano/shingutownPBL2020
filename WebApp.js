@@ -11,7 +11,7 @@ var choicenumber = 0;
 var maxvalue = 0;
 
 
-function calculation_start) (){
+function calculation_start(){
 	
 var snacklist = document.getElementsbyName("snack");
 var psum = 0;
@@ -31,7 +31,7 @@ var vsum = 0;
 
 
 
-function full_search_start) (){
+function full_search_start(){
 	startTime = performance.now();
 
 	for(var cnt = 0; cnt < Math.pow(2, itemprice.length) ;cnt++){
