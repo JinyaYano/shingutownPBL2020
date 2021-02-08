@@ -53,6 +53,7 @@ function calculation_start(){
 	        vsum = vsum+itemvalue[i];
 	}
 }
+	
 	var element = document.createElement("p");
 	alert("2");
         var text = document.createTextNode(psum+"あ"+vsum);
