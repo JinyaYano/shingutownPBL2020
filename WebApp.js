@@ -37,7 +37,7 @@ function full_search_start(){
 }
 
 function calculation_start(){
-	alert("1");
+	alert("1.0");
 	
 	var snacklist = document.getElementsbyName("snack");
 	alert("1.1")
