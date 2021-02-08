@@ -1,7 +1,7 @@
-let btnstart = document.getElementById("mybtn2");
-let btnstart = document.getElementedId("mybtn3");
-btnstart.addEventListener("click",full_search_start);
-btnstart.addEventListener("click",calculation_start);
+let btnstart2 = document.getElementById("mybtn2");
+let btnstart3 = document.getElementedId("mybtn3");
+btnstart2.addEventListener("click",full_search_start);
+btnstart3.addEventListener("click",calculation_start);
 var startTime;
 
 var itemprice = [30,50,80,90,100,110,120,130,150,160];
@@ -19,7 +19,7 @@ var psum = 0;
 var vsum = 0;
 
         for(i=0;i=10;i++){
-	     if(snacklist[i].cehcked){
+	     if(snacklist[i].checked){
 		psum = psum+itemprice[i];
 	        vsum = vsum+itemvalue[i];
 	}
