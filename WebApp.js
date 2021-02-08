@@ -1,5 +1,7 @@
 let btnstart = document.getElementById("mybtn2");
-btnstart.addEventListener("click",clockstart);
+let btnstart = document.getElementedId("mybtn3");
+btnstart.addEventListener("click",full_search_start);
+btnstart.addEventListener("click",calculation_start);
 var startTime;
 
 var itemprice = [30,50,80,90,100,110,120,130,150,160];
@@ -8,7 +10,25 @@ var limitprice = 300;
 var choicenumber = 0;
 var maxvalue = 0;
 
-function clockstart (){
+var snacklist = document.getElements by Name("snack");
+
+
+function calculation_start (){
+	
+psum = 0;
+vsum = 0;
+
+for(i=0;i=10;i++){
+	if(snacklist[i].cehcked){
+		psum = psum+itemprice[i];
+	        vsum = vsum+itemvalue[i];
+	}
+}
+}
+
+
+
+function full_search_start (){
 	startTime = performance.now();
 
 	for(var cnt = 0; cnt < Math.pow(2, itemprice.length) ;cnt++){
