@@ -13,7 +13,6 @@ var maxvalue = 0;
 
 function full_search_start(){
 	startTime = performance.now();
-	alert("あいうえお");
 
 	for(var cnt = 0; cnt < Math.pow(2, itemprice.length) ;cnt++){
 		var sumprice = 0;
@@ -38,14 +37,10 @@ function full_search_start(){
 
 
 function calculation_start(){
-	alert("1.00");
 	
 	var snacklist = document.getElementsByName("snack");
-	alert("1.1")
 	var psum = 0;
 	var vsum = 0;
-	
-	alert("1.2");
 
         for(i=0;i<10;i++){
 	     if(snacklist[i].checked){
@@ -55,11 +50,8 @@ function calculation_start(){
 }
 	
 	var element = document.createElement("p");
-	alert("2");
-        var text = document.createTextNode(psum+"あ"+vsum);
-	alert("3");
+        var text = document.createTextNode("合計金額:" + psum + ",合計人気度:"　+　vsum);
 	document.body.appendChild(element).appendChild(text);
-	alert("4");
 }
 
 
