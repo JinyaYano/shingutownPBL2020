@@ -17,12 +17,12 @@ var snacklist = document.getElementsbyName("snack");
 var psum = 0;
 var vsum = 0;
 
-        for(i=0;i<10;i++){
-	     if(snacklist[i].checked){
-		psum = psum+itemprice[i];
-	        vsum = vsum+itemvalue[i];
-	}
-}
+        //for(i=0;i<10;i++){
+	     //if(snacklist[i].checked){
+		//psum = psum+itemprice[i];
+	        //vsum = vsum+itemvalue[i];
+	//}
+//}
 	var element2 = document.createElement("p");
         var text2 = document.createTextNode("合計金額:"+psum+",合計人気度:"+vsum);
 	document.body.appendChild(element2).appendChild(text2);
