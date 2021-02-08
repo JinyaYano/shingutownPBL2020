@@ -37,21 +37,23 @@ function full_search_start(){
 }
 
 function calculation_start(){
-	alert("1")
+	alert("1");
 	
-       //var snacklist = document.getElementsbyName("snack");
-       //var psum = 0;
-       //var vsum = 0;
+       var snacklist = document.getElementsbyName("snack");
+       var psum = 0;
+       var vsum = 0;
+	
+	alert("1.2");
 
-        //for(i=0;i<10;i++){
-	     //if(snacklist[i].checked){
-		//psum = psum+itemprice[i];
-	        //vsum = vsum+itemvalue[i];
-	//}
-//}
+        for(i=0;i<10;i++){
+	     if(snacklist[i].checked){
+		psum = psum+itemprice[i];
+	        vsum = vsum+itemvalue[i];
+	}
+}
 	var element = document.createElement("p");
 	alert("2");
-        var text = document.createTextNode("合計金額");
+        var text = document.createTextNode(psum+"あ"+vsum);
 	alert("3");
 	document.body.appendChild(element).appendChild(text);
 	alert("4");
