@@ -39,10 +39,10 @@ function full_search_start(){
 function calculation_start(){
 	alert("1");
 	
-       var snacklist = document.getElementsbyName("snack");
-       var psum = 0;
-       var vsum = 0;
-	
+	var snacklist = document.getElementsbyName("snack");
+	alert("1.1")
+	var psum = 0;
+	var vsum = 0;
 	
 	alert("1.2");
 
