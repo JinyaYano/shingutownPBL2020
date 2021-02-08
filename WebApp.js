@@ -11,25 +11,6 @@ var choicenumber = 0;
 var maxvalue = 0;
 
 
-function calculation_start(){
-      var snacklist = document.getElementsbyName("snack");
-      var psum = 0;
-      var vsum = 0;
-
-        //for(i=0;i<10;i++){
-	     //if(snacklist[i].checked){
-		//psum = psum+itemprice[i];
-	        //vsum = vsum+itemvalue[i];
-	//}
-//}
-	var element = document.createElement("p");
-        var text = document.createTextNode("合計金額:" + psum + ",合計人気度:" + vsum);
-	document.body.appendChild(element).appendChild(text);
-	
-}
-
-
-
 function full_search_start(){
 	startTime = performance.now();
 	alert("あいうえお");
@@ -54,3 +35,23 @@ function full_search_start(){
 	var text = document.createTextNode("人気度の合計：" + maxvalue + ", 選べるパターン：" + choicenumber + "通り，実行時間：" + (endTime-startTime) + "/1000秒！");
 	document.body.appendChild(element).appendChild(text);
 }
+
+function calculation_start(){
+      var snacklist = document.getElementsbyName("snack");
+      var psum = 0;
+      var vsum = 0;
+
+        //for(i=0;i<10;i++){
+	     //if(snacklist[i].checked){
+		//psum = psum+itemprice[i];
+	        //vsum = vsum+itemvalue[i];
+	//}
+//}
+	var element = document.createElement("p");
+        var text = document.createTextNode("合計金額:" + psum + ",合計人気度:" + vsum);
+	document.body.appendChild(element).appendChild(text);
+	
+}
+
+
+
