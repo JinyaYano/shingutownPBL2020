@@ -37,9 +37,9 @@ function full_search_start(){
 }
 
 function calculation_start(){
-      var snacklist = document.getElementsbyName("snack");
-      var psum = 0;
-      var vsum = 0;
+       var snacklist = document.getElementsbyName("snack");
+       var psum = 0;
+       var vsum = 0;
 
         //for(i=0;i<10;i++){
 	     //if(snacklist[i].checked){
