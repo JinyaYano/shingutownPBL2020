@@ -59,6 +59,7 @@ function calculation_start(){
 	document.body.appendChild(element).appendChild(text);
 	alert("4");
 	
+	
 }
 
 
