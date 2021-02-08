@@ -10,7 +10,7 @@ var limitprice = 300;
 var choicenumber = 0;
 var maxvalue = 0;
 
-var snacklist = document.getElements by Name("snack");
+var snacklist = document.getElementsbyName("snack");
 
 
 function calculation_start) (){
