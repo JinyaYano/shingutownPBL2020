@@ -38,9 +38,9 @@ function full_search_start(){
 
 
 function calculation_start(){
-	alert("1.0");
+	alert("1.00");
 	
-	var snacklist = document.getElementsbyName("snack");
+	var snacklist = document.getElementsByName("snack");
 	alert("1.1")
 	var psum = 0;
 	var vsum = 0;
