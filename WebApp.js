@@ -23,9 +23,9 @@ var vsum = 0;
 	        //vsum = vsum+itemvalue[i];
 	//}
 //}
-	var element2 = document.createElement("p");
-        var text2 = document.createTextNode("合計金額:"+psum+",合計人気度:"+vsum);
-	document.body.appendChild(element2).appendChild(text2);
+	var element = document.createElement("p");
+        var text = document.createTextNode("合計金額:" + psum + ",合計人気度:" + vsum);
+	document.body.appendChild(element).appendChild(text);
 	
 }
 
