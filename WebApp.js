@@ -10,15 +10,14 @@ var limitprice = 300;
 var choicenumber = 0;
 var maxvalue = 0;
 
-var snacklist = document.getElementsbyName("snack");
-
 
 function calculation_start) (){
 	
+var snacklist = document.getElementsbyName("snack");
 var psum = 0;
 var vsum = 0;
 
-        for(i=0;i=10;i++){
+        for(i=0;i<10;i++){
 	     if(snacklist[i].checked){
 		psum = psum+itemprice[i];
 	        vsum = vsum+itemvalue[i];
