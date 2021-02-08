@@ -37,7 +37,7 @@ function full_search_start(){
 }
 
 function calculation_start(){
-	alert("かきく");
+	alert("1")
 	
        //var snacklist = document.getElementsbyName("snack");
        //var psum = 0;
@@ -50,8 +50,11 @@ function calculation_start(){
 	//}
 //}
 	var element = document.createElement("p");
+	alert("2");
         var text = document.createTextNode("合計金額");
+	alert("3");
 	document.body.appendChild(element).appendChild(text);
+	alert("4");
 	
 }
 
