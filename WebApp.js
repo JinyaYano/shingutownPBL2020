@@ -1,5 +1,5 @@
 let btnstart2 = document.getElementById("mybtn2");
-let btnstart3 = document.getElementedId("mybtn3");
+let btnstart3 = document.getElementById("mybtn3");
 btnstart2.addEventListener("click",full_search_start);
 btnstart3.addEventListener("click",calculation_start);
 var startTime;
