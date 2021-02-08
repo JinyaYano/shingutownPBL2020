@@ -24,6 +24,9 @@ for(i=0;i=10;i++){
 	        vsum = vsum+itemvalue[i];
 	}
 }
+	
+var text = document.createTextNode("合計金額:"+psum+",合計人気度:"+vsum);
+	
 }
 
 
