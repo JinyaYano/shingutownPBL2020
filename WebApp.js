@@ -15,8 +15,8 @@ var snacklist = document.getElements by Name("snack");
 
 function calculation_start) (){
 	
-psum = 0;
-vsum = 0;
+var psum = 0;
+var vsum = 0;
 
         for(i=0;i=10;i++){
 	     if(snacklist[i].cehcked){
