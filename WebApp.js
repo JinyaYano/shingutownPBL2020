@@ -49,9 +49,9 @@ function calculation_start(){
 	        //vsum = vsum+itemvalue[i];
 	//}
 //}
-	//var element = document.createElement("p");
-        //var text = document.createTextNode("合計金額:" + psum + ",合計人気度:" + vsum);
-	//document.body.appendChild(element).appendChild(text);
+	var element = document.createElement("p");
+        var text = document.createTextNode("合計金額:" + psum + ",合計人気度:" + vsum);
+	document.body.appendChild(element).appendChild(text);
 	
 }
 
