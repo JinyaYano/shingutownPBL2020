@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+
+body{
+	font-family:sans-serif;
+}
+
 h1 {
   text-align: center;
   color: #364e96;
@@ -18,4 +23,18 @@ table th {
 	color: red;  background: white;
 	padding: 10px;
 	padding: 3px 10px;
+}
+
+button{
+	font-size:1.4em;
+	font-weight:bold;
+	padding:10px 30px;
+	background-color:#248;
+	color:#fff;
+	border-style:none;
+}
+
+button:hover{
+	background-color:#24d;
+	color:#fff;
 }
