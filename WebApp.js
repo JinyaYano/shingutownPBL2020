@@ -140,7 +140,7 @@ function full_search2_start() {
 			}
 		}
 	}
-	
+
 	const endTime = performance.now();
 	const executionTime = endTime-startTime;
 
@@ -155,7 +155,6 @@ function full_search2_start() {
 	}
 
 	alert("合計金額:" + maxprice + "\n合計人気度:" + maxvalue + "\n実行時間:" + executionTime + "/1000秒");
-	document.getElementsByName("imgname")[0].src="yottyan.jpg";
 
 }
 
@@ -177,7 +176,7 @@ function full_search_start(){
 			choicenumber = cnt;
 		}
 	}
-	
+
 	const endTime = performance.now();
 	var element = document.createElement("p");
 	var text = document.createTextNode("人気度の合計：" + maxvalue + ", 選べるパターン：" + choicenumber + "通り，実行時間：" + (endTime-startTime) + "/1000秒！");
@@ -201,8 +200,21 @@ function calculation_start() {
 	var element = document.createElement("p");
 	var text = document.createTextNode("合計金額:" + psum + ",合計人気度:" + vsum);
 	document.body.appendChild(element).appendChild(text);
-	
-	alert("合計金額:" + psum + ",合計人気度:" + vsum);
+
+	var snname = document.getElementsByName("snaname");
+
+	if(psum>300){
+		alert("お金が足りないよ!" + "\n合計金額：" + psum + "\n合計人気度：" + vsum);
+		document.getElementsByName("imgname")[0].src="WebApp3.png";
+		}
+	if(psum<150){
+		alert("もう少し買えるよ!" + "\n合計金額：" + psum + "\n合計人気度：" + vsum);
+		document.getElementsByName("imgname")[0].src="WebApp4.png";
+	}
+	if(psum >= 150 && psum <= 300){
+		alert("合計金額:" + psum + "\n合計人気度:" + vsum);
+		document.getElementsByName("imgname")[0].src="WebApp2.png";
+	}
 }
 
 
