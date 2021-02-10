@@ -18,9 +18,8 @@ table {
 	width:100%
 }
 
-table th {
-	color: blue;
-	color: red;  background: white;
+table td {
+	color: blue;;
 	padding: 10px;
 	padding: 3px 10px;
 }
