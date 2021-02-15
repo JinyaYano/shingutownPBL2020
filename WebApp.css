@@ -17,7 +17,7 @@ table {
 	color:blue;
 	text-align: center;
 	font-weight:bold;
-	width:78%;
+	width:80%;
 }
 
 table td{
@@ -38,4 +38,8 @@ button{
 button:hover{
 	background-color:#24d;
 	color:#fff;
+}
+
+p1{
+	margin:5px;
 }
