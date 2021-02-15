@@ -40,6 +40,14 @@ button:hover{
 	color:#fff;
 }
 
+.button1{
+	float:left;
+}
+
+.button2{
+	float:right;
+}
+
 p1{
 	margin:5px;
 }
