@@ -17,7 +17,7 @@ table {
 	color:blue;
 	text-align: center;
 	font-weight:bold;
-	width:85%;
+	width:80%;
 }
 
 table td{
@@ -29,7 +29,6 @@ button{
 	font-size:1.4em;
 	font-weight:bold;
 	padding:10px 30px;
-	margin:20px;
 	background-color:#248;
 	color:#fff;
 	border-style:none;
