@@ -32,6 +32,7 @@ button{
 	background-color:#248;
 	color:#fff;
 	border-style:none;
+	margin-bottom:15px;
 }
 
 button:hover{
