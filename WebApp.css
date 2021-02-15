@@ -50,6 +50,10 @@ button:hover{
 	margin:0px 4px 15px 2px;
 }
 
+.image{
+	margin-top:20px;
+}
+
 .url{
 	clear:both;
 	font-size:1.2em;
