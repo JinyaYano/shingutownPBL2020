@@ -42,12 +42,18 @@ button:hover{
 
 .button1{
 	text-align:center;
-	margin:150px 2px 15px 6px;
+	margin-top:150px;
+	margin-right:3px;
+	margin-left:6px
+		
 }
 
 .button2{
 	text-align:center;
-	margin:150px 4px 15px 2px;
+	margin-top:150px;
+	margin-right:6px;
+	margin-left:3px
+		
 }
 
 .image{
