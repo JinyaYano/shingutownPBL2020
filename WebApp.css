@@ -48,6 +48,7 @@ button:hover{
 	float:right;
 }
 
-p1{
+.url{
+	clear:both;
 	margin:5px;
 }
