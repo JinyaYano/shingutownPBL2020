@@ -48,6 +48,11 @@ button:hover{
 	float:right;
 }
 
+.image{
+	margin:5px;
+}
+
 .url{
 	clear:both;
+	margin:10px 0px;
 }
