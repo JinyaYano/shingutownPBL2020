@@ -32,7 +32,7 @@ button{
 	background-color:#248;
 	color:#fff;
 	border-style:none;
-	margin-bottom:15px;
+	margin-bottom:5px;
 }
 
 button:hover{
@@ -42,7 +42,7 @@ button:hover{
 
 .button1{
 	text-align:center;
-	margin-top:180px;
+	margin-top:150px;
 	margin-right:3px;
 	margin-left:6px;
 		
@@ -50,7 +50,7 @@ button:hover{
 
 .button2{
 	text-align:center;
-	margin-top:180px;
+	margin-top:150px;
 	margin-right:6px;
 	margin-left:3px;
 		
