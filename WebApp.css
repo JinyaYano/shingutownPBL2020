@@ -40,20 +40,20 @@ button:hover{
 	color:#fff;
 }
 
-.button1{
-	text-align:center;
-	margin-top:250px;
-	margin-right:3px;
-	margin-left:6px;
-		
-}
-
 .button2{
 	text-align:center;
 	margin-top:250px;
 	margin-right:6px;
 	margin-left:3px;
-		
+
+}
+
+.button1{
+	text-align:center;
+	margin-top:250px;
+	margin-right:3px;
+	margin-left:6px;
+
 }
 
 .image{
