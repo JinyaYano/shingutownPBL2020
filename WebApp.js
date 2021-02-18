@@ -144,17 +144,22 @@ function full_search1_start() {
 	const endTime = performance.now();
 	const executionTime = endTime-startTime;
 
-	var element = document.createElement("p");
-	var text = document.createTextNode("合計金額：" + maxprice + "円" + ",合計人気度：" + maxvalue + ",実行時間：" + executionTime/1000 + "秒！");
-	document.body.appendChild(element).appendChild(text);
-
 	var sname = document.getElementsByName("snackname");
 
 	for(var i=0;i<10;i++){
 		if(maxbuy[i]==1)sname[i].style.backgroundColor="Red";
-	}
 
-	alert("合計金額：" + maxprice  + "円" + "\n合計人気度：" + maxvalue + "\n実行時間：" + executionTime/1000 + "秒！");
+		}
+
+
+	document.getElementById("sumvalue2").textContent = maxvalue;
+	document.getElementById("sumprice2").textContent = (maxprice + "円");
+		document.getElementById("exectime2").textContent = (executionTime / 1000).toFixed(4) + "秒";
+
+
+
+
+	alert("合計金額：" + maxprice  + "円" + "合計人気度：" + maxvalue + "実行時間：" + executionTime/1000 + "秒！");
 
 }
 
@@ -177,9 +182,10 @@ function full_search_start(){
 		}
 	}
 
+
 	const endTime = performance.now();
 	var element = document.createElement("p");
-	var text = document.createTextNode("人気度の合計：" + maxvalue + ", 選べるパターン：" + choicenumber + "通り，実行時間：" + (endTime-startTime)/1000 + "秒！");
+	var text = document.createTextNode("人気度の合計：" + maxvalue + ", 選べるパターン：" + choicenumber + "通り, 実行時間：" + (endTime-startTime)/1000 + "秒！");
 	document.body.appendChild(element).appendChild(text);
 }
 
@@ -197,9 +203,8 @@ function calculation_start() {
 		}
 	}
 
-	var element = document.createElement("p");
-	var text = document.createTextNode("合計金額:" + psum + "円" + ",合計人気度:" + vsum);
-	document.body.appendChild(element).appendChild(text);
+	document.getElementById("sumvalue1").textContent = vsum;
+	document.getElementById("sumprice1").textContent = (psum + "円");
 
 	var snname = document.getElementsByName("snaname");
 
