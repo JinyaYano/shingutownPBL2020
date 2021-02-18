@@ -152,13 +152,13 @@ function full_search1_start() {
 		}
 
 
-	document.getElementById("sumvalue2").textContent = maxvalue;
+	document.getElementById("sumvalue2").textContent = (maxvalue + "点");
 	document.getElementById("sumprice2").textContent = (maxprice + "円");
 	document.getElementById("exectime2").textContent = (executionTime / 1000).toFixed(4) + "秒";
 
 
 
-	alert("合計金額：" + maxprice  + "円" + "合計人気度：" + maxvalue + "実行時間：" + (executionTime / 1000).toFixed(4) + "秒！");
+	alert("合計金額：" + maxprice  + "円" + "\n合計人気度：" + maxvalue + "点" + "\n実行時間：" + (executionTime / 1000).toFixed(4) + "秒");
 
 }
 
@@ -202,22 +202,22 @@ function calculation_start() {
 		}
 	}
 
-	document.getElementById("sumvalue1").textContent = vsum;
+	document.getElementById("sumvalue1").textContent = (vsum + "点");
 	document.getElementById("sumprice1").textContent = (psum + "円");
 
 	var snname = document.getElementsByName("snaname");
 
 	if(psum>300){
 		document.getElementsByName("imgname")[0].src="WebApp3.png";
-		alert("お金が足りないよ!" + "\n合計金額：" + psum + "円" + "\n合計人気度：" + vsum);
+		alert("お金が足りないよ!" + "\n合計金額：" + psum + "円" + "\n合計人気度：" + vsum + "点");
 		}
 	if(psum<150){
 		document.getElementsByName("imgname")[0].src="WebApp4.png";
-		alert("もう少し買えるよ!" + "\n合計金額：" + psum + "円" + "\n合計人気度：" + vsum);
+		alert("もう少し買えるよ!" + "\n合計金額：" + psum + "円" + "\n合計人気度：" + vsum + "点");
 	}
 	if(psum >= 150 && psum <= 300){
 		document.getElementsByName("imgname")[0].src="WebApp2.png";
-		alert("合計金額:" + psum + "円" + "\n合計人気度:" + vsum);
+		alert("合計金額:" + psum + "円" + "\n合計人気度:" + vsum + "点");
 	}
 }
 
