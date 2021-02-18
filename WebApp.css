@@ -34,9 +34,15 @@ button{
 	background-color:#248;
 	color:#fff;
 	border-style:none;
-	padding:10px 30px;
 }
 
+.button2{
+	padding:15px 45px;
+}
+
+.button1{
+	padding:15px 50px;
+}
 
 button:hover{
 	background-color:#24d;
