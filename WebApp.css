@@ -32,7 +32,7 @@ button{
 	background-color:#248;
 	color:#fff;
 	border-style:none;
-	margin-bottom:5px;
+	margin-bottom:2px;
 }
 
 button:hover{
@@ -42,18 +42,21 @@ button:hover{
 
 .button2{
 	text-align:center;
-	margin-top:250px;
-	margin-right:6px;
-	margin-left:3px;
+	float:left;
+}
 
+.table2{
+	float:left;
 }
 
 .button1{
 	text-align:center;
-	margin-top:250px;
-	margin-right:3px;
-	margin-left:6px;
+	clear:left;
+	float:left;
+}
 
+.table3{
+	float:left;
 }
 
 .image{
