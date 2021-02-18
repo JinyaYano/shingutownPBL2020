@@ -208,15 +208,15 @@ function calculation_start() {
 	var snname = document.getElementsByName("snaname");
 
 	if(psum>300){
-		document.getElementsByName("imgname")[0].src="WebApp3.png";
+		document.getElementsByName("imgname")[0].src="images/WebApp3.png";
 		alert("お金が足りないよ!" + "\n合計金額：" + psum + "円" + "\n合計人気度：" + vsum);
 		}
 	if(psum<150){
-		document.getElementsByName("imgname")[0].src="WebApp4.png";
+		document.getElementsByName("imgname")[0].src="images/WebApp4.png";
 		alert("もう少し買えるよ!" + "\n合計金額：" + psum + "円" + "\n合計人気度：" + vsum);
 	}
 	if(psum >= 150 && psum <= 300){
-		document.getElementsByName("imgname")[0].src="WebApp2.png";
+		document.getElementsByName("imgname")[0].src="images/WebApp2.png";
 		alert("合計金額:" + psum + "円" + "\n合計人気度:" + vsum);
 	}
 }
