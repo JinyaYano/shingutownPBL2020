@@ -22,17 +22,26 @@ table {
 
 table td{
 	border : solid 3px black;
-	padding : 10px 10px;
+}
+
+.table1 td{
+	padding:10px 10px;
 }
 
 button{
 	font-size:1.4em;
 	font-weight:bold;
-	padding:10px 30px;
 	background-color:#248;
 	color:#fff;
 	border-style:none;
-	margin:0px
+}
+
+.button1{
+	padding:20px 60px;
+}
+
+.button2{
+	padding:15px 45px;
 }
 
 button:hover{
@@ -40,8 +49,22 @@ button:hover{
 	color:#fff;
 }
 
-.url{
-	clear:both;
-	font-size:1.2em;
-	margin:10px 0px;
+.NextBtnLayout{
+	text-align:right;
+	margin-top:40px;
+}
+
+.NextBtn{
+	font-size:1.4em;
+	font-weight:bold;
+	background-color:#248;
+	color:#fff;
+	border-style:none;
+	padding:10px 20px;
+	border-radius:20px;
+}
+
+.NextBtn:hover{
+	background-color:#24d;
+	color:#fff;
 }
